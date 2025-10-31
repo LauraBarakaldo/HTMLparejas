@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+header ul{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+    
+}
+header {
+    display: flex; /* Coloca el logo y el menú en una misma línea */
+    justify-content: space-between; /* Logo a la izquierda, menú a la derecha */
+    padding: 15px 30px; /* Espaciado interno */
+}
+nav img {
+  width: 100%;                  /* Que ocupe todo el ancho de la pantalla */
+  height: 1000px;                 /* Mantiene la proporción */
+  display: block;               /* Elimina espacio blanco debajo de la imagen */
+}
+main{
+    display: flex;
+    justify-content:center;
+}
+button{
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: #dda732;
+}
+aside {
+  background-color: black;     /* Fondo oscuro */
+  color: #707070;              /* Texto gris */
+  display: flex;               /* Flexbox para alinear elementos */
+  flex-direction: column;      /* Pila los elementos verticalmente */
+  align-items: center;         /* Centra el contenido horizontalmente */
+  text-align: center;          /* Centra el texto */
+  padding: 20px;               /* 🔥 Espacio interior del bloque */
+}
